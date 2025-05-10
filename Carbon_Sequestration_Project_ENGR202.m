@@ -39,7 +39,7 @@ countryInQuesiton = UnitedStates;
 [xMAx,idx] = max(countryInQuesiton)
 
 % User input for determining a threshold in carbon quotas simulating
-% government regulatoin such as monitoring form the EPA
+% government regulatoin such as monitoring form the EPA 
 y1 = input('Enter a threshold amount in millions e.g. 6000000: ');
 
 % Variable for keeping track how many violations have been performed
@@ -63,6 +63,7 @@ end
 fprintf('The number of times the United States exceeded the threshold of %i units of carbon dioxide is %i times\n',y1,thresholdViolation)
 
 % figure 1 for the first type of data chart
+% Valerie Swafford
 figure(1)
 
 % "stacked" parameter for "Each section in the stack corresponds to an
@@ -140,8 +141,10 @@ fprintf('The number of times Bulgaria exceeded the threshold of %i units of GHGs
 % This plot shows considerable variation in greenhouse gases from the
 % UNdata set. The gas profile presented does not include general forestry
 % and land use. The following acronyms were used for the heading of the
-% UNdata set: "Greenhouse Gas (GHGs) Emissions, including Indirect CO2,
-% without LULUCF..."
+% UNdata set: ""Greenhouse Gas (GHGs) Emissions, including Indirect CO2,
+% without LULUCF...""
+% Valerie Swafford
+
 figure(2)
 % Plotting accomplished with set line widths and styles
 plot(YearGreenhouse,CountriesGreenhouse,LineWidth=3,LineStyle="-")
@@ -156,6 +159,7 @@ ylabel('kilotonne');
 % The nearest interpolation graphic method shows that the four European
 % countries in question have a negative sloping trend in sequestering
 % greenhouse gases
+% Valerie Swafford
 figure(3)
 
 % Indexing range
